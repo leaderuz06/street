@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0C0C0C;
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.header_container{
+    background-color:#0C0C0C;
+    width: 100%;
+    height: 60px;
+    color: white;
+}
+
+.header_nav{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.link{
+    color: white;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+}
+
+/*navigation*/
+
+.nav_container{
+    background: #0C0C0C;
+    width: 100%;
+    height: 65px;
+    border: 1px solid rgba(125, 115, 115, 0.50);
+    backdrop-filter: blur(7.5px);
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+}
+
+.logo span{
+    width: 216px;
+    height: 53px;
+    border-radius: 4px;
+    border: 4px solid rgba(6, 96, 15, 1);
+    background-color: rgba(10, 148, 24, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 0;
+    margin: 6px 0;
+}
+
+.nav_list{
+    display: flex;
+    align-items: center;
+}
+
+.nav_link{
+    color: white;
+    column-gap: 30px;
+}
+
+.nav_item{
+    width: 93px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    transition: .5s;
+    justify-content: center;
+}
+
+.nav_item:hover{
+    background-color: rgba(105, 207, 23, 0.75);
+}
+
+/*section*/
+
+.section{
+    background-image: url('./img/background_img.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 700px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+
+
+.main_section_title{
+    width: 732px;
+    height: 85px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 84px;
+    color: rgba(105, 207, 23, 1);
+}
+
+.main_section_h4{
+    width: 155px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 17px;
+    color: rgba(105, 207, 23, 1);
+}
+
+.main_section_text{
+    width: 1110px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+
+
+.main_section_salary{
+    width: 285px;
+    height: 103px;
+    background-color: rgba(105, 207, 23, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_section_salary span{
+    width: 133px;
+    height: 38px;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.main_section_button{
+    width: 255px;
+    height: 51px;
+    border-radius: 6px;
+    background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.salary{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.card_section{
+    margin-top: 20px;
+    background-color: rgba(57, 54, 54, 1);
+}
+
+.cards_title{
+    padding-top: 15px;
+    width: 200px;
+    height: 15px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+}
+
+.cards_text{
+    padding-top: 30px;
+    width: 338px;
+    height: 124px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+}
+
+.card{
+    max-width: 338px;
+    width: 100%;
+    height: 524px;
+    background-color: #0C0C0C;
+    margin: 20px;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+.card_img{
+    max-width: 338px;
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+    padding: 10px;
+    transition: .5s;
+    background-image: url('./img/burger.svg');
+    background-position: center;
+}
+
+.card_img:hover{
+    background: url('./img/bacbasket.png') no-repeat center center / cover;
+}
+
+.cards{
+    max-width: 370px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.middle{
+    margin-top: 30px;
+    text-align: center;
+    color: #69CF17;
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+}
+
+.map{
+    width: 100%;
+}
+
+
+/*============footer===============*/
+
+.footer {
+    width: 100%;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__content {
+    width: 100%;
+    height: 268px;
+    background: #060606;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 81px;
+    padding-bottom: 51px;
+    background: linear-gradient(180deg, #000000 0%, #376810 100%);
+}
+
+.footer__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 725px;
+}
+
+.footer__number {
+    color: #FFF;
+    text-align: right;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer__ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.footer__link {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__info {
+    width: 100%;
+    height: 57px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #1A3406;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*
+*/
+
+    .nav__button{
+        width: 216px;
+        height: 53px;
+        border-radius: 4px;
+        border: 4px solid rgba(6, 96, 15, 1);
+        background-color: rgba(10, 148, 24, 0.75);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 6px 0;
+        margin: 6px 0;
+        color: white;
+    }
